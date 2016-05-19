@@ -1,0 +1,30 @@
+Lab 3 IO
+
+1. Revise your priority queue to enqueue the numbers with different priority rules. You need to define your own rules. For example, 
+- Rule 1 a multiple of 3
+- Rule 2 a multiple of 7
+- Rule 3 others
+In this case, if you have some numbers {5, 6, 2, 7, 9, 11, 3, 8...} and your queue length is 4, then you will have the output 6, 9, 7, 3, 5, 2, 11, 8... (Note that, the queue length is 4!)
+So, this time, you will need to access two files the test file with more than 10000 numbers and the rule file.
+
+2. Press any key to start the program. Blink the LEDs twice when Rule 1 is matched. Show '_R_1' on your 7-Segment LEDs when Rule 1 is matched. Show the dequeue results on LCD and console.
+
+Lab 4: Task
+
+1. Create different threads for processing numbers matched with different 
+
+rules. For example, thread 1 for rule 1; thread 2 for rule 2, etc. Each 
+
+thread creates a file, writes the thread ID and the matched numbers into the 
+
+file. 
+
+
+2. In this case, if you have 3 rules, then you will need to create 3 files 
+
+and classify the numbers into 3 groups.
+
+
+3. Redo 1 & 2 with processes (fork()).
+
+IO 輸出要求同 Lab 3.

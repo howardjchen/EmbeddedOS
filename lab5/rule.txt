@@ -1,0 +1,2 @@
+Rule 1 a multiple of 3
+Rule 2 a multiple of 7

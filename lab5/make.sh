@@ -1,0 +1,3 @@
+arm-unknown-linux-gnu-gcc -o lab5 lab5.c -lpthread -L /opt/arm-unknown-linux-gnu/arm-unknown-linux-gnu/lib/ -I /opt/arm-unknown-linux-gnu/arm-unknown-linux-gnu/include/ -I /home/lab616/microtime/linux/include/
+arm-unknown-linux-gnu-gcc -o lab5_f lab5_fork.c -L /opt/arm-unknown-linux-gnu/arm-unknown-linux-gnu/lib/ -I /opt/arm-unknown-linux-gnu/arm-unknown-linux-gnu/include/ -I /home/lab616/microtime/linux/include/
+arm-unknown-linux-gnu-gcc -o lab5_v2 lab5_v2.c -lpthread -L /opt/arm-unknown-linux-gnu/arm-unknown-linux-gnu/lib/ -I /opt/arm-unknown-linux-gnu/arm-unknown-linux-gnu/include/ -I /home/lab616/microtime/linux/include/          

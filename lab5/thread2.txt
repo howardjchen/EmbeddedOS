@@ -1,0 +1,3 @@
+threadID : 1 PID : 850 
+thread 2 is writing.....
+77 35 49 21 35 56 42 21 84 98 70 
