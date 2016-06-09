@@ -1,0 +1,1 @@
+arm-unknown-linux-gnu-gcc -o server_pxa server.c -lpthread -L /opt/arm-unknown-linux-gnu/arm-unknown-linux-gnu/lib/ -I /opt/arm-unknown-linux-gnu/arm-unknown-linux-gnu/include/ -I /home/lab616/microtime/linux/include/
